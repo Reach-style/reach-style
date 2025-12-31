@@ -1,70 +1,101 @@
-import { Button } from "@/components/ui/button";
 import { Link } from "react-router-dom";
 
-// Import icons
+// Icons
 import emailIcon from "@/assets/email_icon.png";
 import whatsappIcon from "@/assets/whatsapp_icon.png";
 import contactIcon from "@/assets/contact_icon.png";
 
 const Header = () => {
   return (
-    <header className="bg-white border-b">
-      <div className="container mx-auto px-4 py-3 sm:py-4">
-        <div className="flex flex-col md:flex-row items-start md:items-center justify-between gap-2">
-          <Link to="/" className="text-3xl sm:text-4xl font-bold leading-tight">
-            <span className="text-red-700" style={{ color: "#a61042" }}>
-              REACH
-            </span>
-            <span className="text-black"> Style Manager</span>
-          </Link>
+    <header className="w-full">
 
-          <div className="text-sm sm:text-base text-gray-700 md:block w-full md:w-1/2 lg:w-1/3 text-left md:text-right leading-tight">
-              RSM
+      {/* TOP UTILITY BAR */}
+      <div className="bg-gray-100 border-b">
+        <div className="container mx-auto px-4 py-2">
+          <div className="flex flex-wrap items-center justify-end gap-5 text-sm sm:text-base">
+
+            <div className="flex items-center gap-2">
+              <img src={emailIcon} alt="email icon" className="w-5 sm:w-6" />
+              <span>info@reach-tech.com</span>
+            </div>
+
+            <a
+              href="https://wa.me/918459278496"
+              target="_blank"
+              rel="noopener noreferrer"
+              className="flex items-center gap-2"
+            >
+              <img src={whatsappIcon} alt="whatsapp icon" className="w-5 sm:w-6" />
+              <span>+91 84592 78496</span>
+            </a>
+
+            <a
+              href="https://docs.google.com/forms/d/e/1FAIpQLSdwXlZfazuaOvXWFpWIwwNPoiAmqj4m_Gl_LzUsFKGkyZHF5Q/viewform"
+              target="_blank"
+              rel="noopener noreferrer"
+              className="flex items-center gap-2"
+            >
+              <img src={contactIcon} alt="contact icon" className="w-5 sm:w-6" />
+              <span>Write to Us</span>
+            </a>
+
           </div>
-
         </div>
-
-
-                {/* Contact Icons Section */}
-        <div className="mt-3 flex flex-col sm:flex-row sm:items-center sm:justify-end gap-4">
-
-          {/* Email */}
-          <div className="flex items-center gap-2">
-            <img src={emailIcon} alt="email icon" className="w-7 sm:w-8" />
-            <span className="text-base sm:text-lg text-gray-800">
-              info@reach-tech.com
-            </span>
-          </div>
-
-          {/* WhatsApp */}
-          <a
-            href="https://wa.me/918459278496"
-            target="_blank"
-            rel="noopener noreferrer"
-            className="flex items-center gap-2"
-          >
-            <img src={whatsappIcon} alt="whatsapp icon" className="w-7 sm:w-8" />
-            <span className="text-base sm:text-lg text-gray-900">
-              +91 84592 78496
-            </span>
-          </a>
-
-          {/* Write to Us */}
-          <a
-            href="https://docs.google.com/forms/d/e/1FAIpQLSdwXlZfazuaOvXWFpWIwwNPoiAmqj4m_Gl_LzUsFKGkyZHF5Q/viewform?usp=sharing&ouid=102794643040205824313"
-            target="_blank"
-            rel="noopener noreferrer"
-            className="flex items-center gap-2"
-          >
-            <img src={contactIcon} alt="contact icon" className="w-7 sm:w-8" />
-            <span className="text-base sm:text-lg text-gray-900">
-              Write to Us
-            </span>
-          </a>
-
-        </div>
-
       </div>
+
+      {/* MAIN HEADER */}
+      <div className="bg-white border-b">
+        <div className="container mx-auto px-4 py-4">
+
+          <div className="flex flex-col lg:flex-row items-center justify-between gap-6">
+
+            {/* LOGO */}
+            <Link to="/" className="text-3xl sm:text-4xl font-bold">
+              <span style={{ color: "#a61042" }}>REACH</span>
+              <span className="text-black"> Style Manager</span>
+            </Link>
+
+            {/* NAVIGATION */}
+            <nav>
+              <ul className="flex flex-wrap gap-8 text-lg font-medium">
+                <li>
+                  <Link to="/" className="text-gray-800 hover:text-[#a61042] transition">
+                    Home
+                  </Link>
+                </li>
+                <li>
+                  <Link to="/about" className="text-gray-800 hover:text-[#a61042] transition">
+                    About
+                  </Link>
+                </li>
+                <li>
+                  <Link to="/benefits" className="text-gray-800 hover:text-[#a61042] transition">
+                    Benefits
+                  </Link>
+                </li>
+                {/* <li>
+                  <a
+                    href="https://docs.google.com/forms/d/e/1FAIpQLSdwXlZfazuaOvXWFpWIwwNPoiAmqj4m_Gl_LzUsFKGkyZHF5Q/viewform"
+                    target="_blank"
+                    rel="noopener noreferrer"
+                    className="text-gray-800 hover:text-[#a61042] transition"
+                  >
+                    Contact
+                  </a>
+                </li> */}
+              </ul>
+            </nav>
+
+          </div>
+
+          {/* TAGLINE */}
+          <p className="mt-3 text-base text-gray-600 text-center lg:text-right">
+            RSM
+          </p>
+
+        </div>
+      </div>
+
     </header>
   );
 };
