@@ -24,11 +24,12 @@ const CaseGallery = () => {
               rel="noopener noreferrer"
               className="block mb-4"
             >
-              <img
-                src={item.thumbnail}
-                alt={item.title}
-                className="w-full h-auto rounded shadow"
-              />
+<img
+  src={item.thumbnail}
+  alt={`Thumbnail image for ${item.title} related to REACH Style Manager case study`}
+  className="w-full h-auto rounded shadow"
+/>
+
             </a>
 
             <h3 className="text-lg font-semibold text-center mb-4">{item.title}</h3>

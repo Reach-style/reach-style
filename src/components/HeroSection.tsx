@@ -3,6 +3,11 @@ import heroImage from "@/assets/heroimage.png";
 const HeroSection = () => {
   return (
     <section className="w-full bg-white">
+      {/* SEO H1 – hidden visually, readable by Google */}
+      <h1 className="sr-only">
+        REACH Style Manager – Product Lifecycle Management Software
+      </h1>
+
       {/* Hero Wrapper */}
       <div
         className="
@@ -14,7 +19,7 @@ const HeroSection = () => {
           overflow-hidden
         "
         style={{
-          aspectRatio: "16 / 9", // keeps image proportion
+          aspectRatio: "16 / 9",
         }}
       >
         {/* Hero Image */}
@@ -33,4 +38,3 @@ const HeroSection = () => {
 };
 
 export default HeroSection;
-
