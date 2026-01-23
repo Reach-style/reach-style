@@ -38,7 +38,7 @@ const Footer = () => {
                 <img
                   src={emailIcon}
                   alt="Email icon for contacting REACH Style Manager"
-                  className="w-8"
+                  className="w-8 icon-a31951"
                 />
                 <span className="text-gray-300 text-lg">
                   info@reach-tech.com
@@ -55,7 +55,7 @@ const Footer = () => {
                 <img
                   src={whatsappIcon}
                   alt="WhatsApp contact icon for REACH Style Manager support"
-                  className="w-8"
+                  className="w-8 icon-a31951"
                 />
                 <span className="text-gray-300 text-lg">
                   +91 84592 78496
@@ -72,7 +72,7 @@ const Footer = () => {
                 <img
                   src={contactIcon}
                   alt="Contact form icon for writing to REACH Style Manager team"
-                  className="w-7"
+                  className="w-7 icon-a31951"
                 />
                 <span className="text-gray-300 text-lg">
                   Write to Us

@@ -27,8 +27,7 @@ const BenefitsSection = () => {
   return (
     <section className="py-16 bg-white text-primary">
       <div className="container mx-auto px-4">
-        <h2 className="text-3xl md:text-4xl font-bold text-center mb-4 text-primary"
-        style={{ color: "#a61042" }}
+        <h2 className="text-3xl md:text-4xl font-bold text-center mb-4 text-024959"
         >
           Benefits of REACH Style Manager
         </h2>
@@ -40,11 +39,11 @@ const BenefitsSection = () => {
           {benefits.map((benefit, index) => (
             <div key={index} className="bg-white p-8 rounded-lg shadow-lg hover:shadow-xl transition-shadow duration-300">
               <div className="flex items-start space-x-4">
-                <div className="bg-primary/10 p-3 rounded-lg flex-shrink-0">
-                  <benefit.icon className="w-8 h-8 text-primary" />
+                <div className="bg-bef0fb p-3 rounded-lg flex-shrink-0">
+                  <benefit.icon className="w-8 h-8 text-black" />
                 </div>
                 <div>
-                  <h3 className="text-xl font-bold text-primary mb-3">{benefit.title}</h3>
+                  <h3 className="text-xl font-bold text-0a829e mb-3">{benefit.title}</h3>
                   <p className="text-muted-foreground leading-relaxed">{benefit.description}</p>
                 </div>
               </div>

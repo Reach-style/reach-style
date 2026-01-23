@@ -10,7 +10,7 @@ const TrainingPartners: React.FC = () => {
       <HeroSection />
       <div className="flex flex-col min-h-screen">
         <div className="flex-grow px-6 py-10 max-w-5xl mx-auto text-justify text-lg">
-          <h1 className="text-3xl font-bold mb-6 text-center">Training Partners</h1>
+          <h1 className="text-3xl font-bold mb-6 text-center">Training <span className="text-0a829e"> Partners </span> </h1>
 
           <p className="mb-4">
             If you are a university, college, technical school or a skill training centre, offering training on REACH software will enable you attract more students, create new revenue streams and enhance employability of your students.

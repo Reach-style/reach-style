@@ -116,3 +116,58 @@ All colors MUST be HSL.
     @apply bg-background text-foreground;
   }
 }
+
+/* ============================= */
+/* REACH MERCHANDISING COLORS */
+/* ============================= */
+
+/* Background colors */
+.bg-024959 { background-color: #024959; }
+.bg-0a829e { background-color: #0A829E; }
+.bg-bef0fb { background-color: #BEF0FB; }
+.bg-f75e8d { background-color: #F75E8D; }
+.bg-a31951 { background-color: #A31951; }
+
+/* Text colors */
+.text-024959 { color: #024959; }
+.text-0a829e { color: #0A829E; }
+.text-bef0fb { color: #BEF0FB; }
+.text-f75e8d { color: #F75E8D; }
+.text-a31951 { color: #A31951; }
+
+/* Icon filters for PNG icons */
+
+/* #024959 */
+.icon-024959 {
+  filter: brightness(0) saturate(100%)
+    invert(18%) sepia(24%) saturate(1530%)
+    hue-rotate(160deg) brightness(90%) contrast(95%);
+}
+
+/* #0A829E */
+.icon-0a829e {
+  filter: brightness(0) saturate(100%)
+    invert(41%) sepia(45%) saturate(1280%)
+    hue-rotate(160deg) brightness(95%) contrast(95%);
+}
+
+/* #BEF0FB */
+.icon-bef0fb {
+  filter: brightness(0) saturate(100%)
+    invert(92%) sepia(20%) saturate(600%)
+    hue-rotate(170deg) brightness(105%) contrast(95%);
+}
+
+/* #F75E8D */
+.icon-f75e8d {
+  filter: brightness(0) saturate(100%)
+    invert(56%) sepia(48%) saturate(2050%)
+    hue-rotate(315deg) brightness(95%) contrast(95%);
+}
+
+/* #A31951 */
+.icon-a31951 {
+  filter: brightness(0) saturate(100%)
+    invert(20%) sepia(85%) saturate(2900%)
+    hue-rotate(325deg) brightness(90%) contrast(95%);
+}

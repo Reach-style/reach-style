@@ -45,7 +45,7 @@ const Rmmimages: React.FC = () => {
 
       {/* Page Title */}
       <div className="bg-gray-200 m-4 py-12 px-4 sm:py-16 sm:px-6 lg:px-8">
-        <h1 className="text-3xl sm:text-4xl md:text-5xl lg:text-6xl font-bold text-center text-primary">
+        <h1 className="text-3xl sm:text-4xl md:text-5xl lg:text-6xl font-bold text-center text-024959">
           REACH Style Manager Images
         </h1>
       </div>
@@ -60,12 +60,11 @@ const Rmmimages: React.FC = () => {
             >
                 {/* Maintain 16:9 ratio for 1280×720 images */}
                 <div className="w-full bg-gray-100 p-2 flex items-center justify-center rounded">
-<img
-  src={item.file}
-  alt={`REACH Style Manager gallery image ${index + 1} showing software interface and features`}
-  className="w-full h-auto object-contain"
-/>
-
+                <img
+                  src={item.file}
+                  alt={`REACH Style Manager gallery image ${index + 1} showing software interface and features`}
+                  className="w-full h-auto object-contain"
+                />
                 </div>
             </div>
             ))}

@@ -11,7 +11,7 @@ const SalesPartners: React.FC = () => {
     <div className="flex flex-col min-h-screen">
       {/* Page Content */}
       <div className="flex-grow px-6 py-10 max-w-5xl mx-auto text-justify text-lg">
-        <h1 className="text-3xl font-bold mb-6 text-center">Sales Partners</h1>
+        <h1 className="text-3xl font-bold mb-6 text-center">Sales <span className="text-0a829e"> Partners </span></h1>
         <p className="mb-4">
           REACH offers the broadest range of software products that digitize processes across the apparel value chain. These products have been built over a decade and half of research and field implementation.
         </p>

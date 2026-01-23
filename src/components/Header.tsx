@@ -17,7 +17,7 @@ const Header = () => {
               <img
                 src={emailIcon}
                 alt="Email icon for contacting REACH Style Manager"
-                className="w-5 sm:w-6"
+                className="w-5 sm:w-6 icon-a31951"
               />
               <span>info@reach-tech.com</span>
             </div>
@@ -31,7 +31,7 @@ const Header = () => {
               <img
                 src={whatsappIcon}
                 alt="WhatsApp icon for REACH Style Manager support"
-                className="w-5 sm:w-6"
+                className="w-5 sm:w-6 icon-a31951"
               />
               <span>+91 84592 78496</span>
             </a>
@@ -45,7 +45,7 @@ const Header = () => {
               <img
                 src={contactIcon}
                 alt="Contact form icon for writing to REACH Style Manager team"
-                className="w-5 sm:w-6"
+                className="w-5 sm:w-6 icon-a31951"
               />
               <span>Write to Us</span>
             </a>

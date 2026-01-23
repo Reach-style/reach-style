@@ -10,7 +10,7 @@ const GovernmentAgencies: React.FC = () => {
       <HeroSection />
       <div className="flex flex-col min-h-screen">
         <div className="flex-grow px-6 py-10 max-w-5xl mx-auto text-justify text-lg">
-          <h1 className="text-3xl font-bold mb-6 text-center">Government Agencies</h1>
+          <h1 className="text-3xl font-bold mb-6 text-center">Government <span className="text-0a829e"> Agencies</span></h1>
 
           <p className="mb-4">
             Vast majority of apparel manufacturing firms are Micro, Small and Medium Enterprises (MSMEs). REACH software like REACH CAD, REACH Cut Planner, REACH Fashion Studio, etc. will save fabric and time for them, enhancing their competitiveness.
