@@ -91,7 +91,7 @@ const Header = () => {
 
           {/* TAGLINE */}
           <p className="mt-3 text-base text-gray-600 text-center lg:text-right">
-            RSM
+            Best In Class Apparel Style Management Software
           </p>
 
         </div>
