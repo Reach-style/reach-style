@@ -28,7 +28,7 @@ const BenefitLinks = () => {
         </h2>
 
         <p className="text-center text-lg text-gray-600 max-w-3xl mx-auto mb-12">
-          Style Manager
+          Best In Class Apparel Style Management Software
         </p>
 
 

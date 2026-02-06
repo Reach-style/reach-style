@@ -27,7 +27,7 @@ const Footer = () => {
               <span className="text-primary">REACH</span> Style Manager
             </Link>
             <p className="text-gray-300 max-w-md">
-              The REACH Style Manager
+              Best In Class Apparel Style Management Software
             </p>
 
             {/* Contact Icons Section */}
@@ -121,7 +121,7 @@ const Footer = () => {
         </div>
 
         <div className="border-t border-gray-700 mt-8 pt-8 text-center text-gray-400">
-          <p>&copy; REACH Technologies 2025. All rights reserved.</p>
+          <p>&copy; REACH Technologies. All rights reserved.</p>
         </div>
       </div>
     </footer>
